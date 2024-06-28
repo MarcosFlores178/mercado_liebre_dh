@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
-let port = 3000 || process.env.PORT;
+let port = process.env.PORT  || 3000 ;
 
 
 app.listen(port, ()=>{
