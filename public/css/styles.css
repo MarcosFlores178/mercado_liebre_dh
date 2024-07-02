@@ -177,8 +177,8 @@ article div.main-article{
     position: relative;
     padding: 15px;
 }
-
-.registro-form {
+/* ********************anda*************** */
+/* .registro-form {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -201,7 +201,7 @@ article div.main-article{
     margin-bottom: 10px;
 }
 
-/* .profile, */
+ .profile, 
 .interests {
     display: flex;
     flex-wrap: wrap;
@@ -230,6 +230,78 @@ article div.main-article{
 .profile input[type="radio"] {
     flex: 1; 
     margin-right: 10px; 
+} */
+/* ************************anda****************************** */
+
+.register {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.registro-form .form-group {
+    margin-bottom: 15px;
+}
+
+.registro-form .form-group input[type="text"],
+.registro-form .form-group input[type="email"],
+.registro-form .form-group input[type="date"],
+.registro-form .form-group input[type="password"],
+.registro-form .form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.registro-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.registro-form .form-group h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.registro-form .profile,
+.registro-form .interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.registro-form .profile label,
+.registro-form .interests label {
+    margin-right: 10px;
+}
+
+.registro-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.registro-form .form-actions input[type="submit"],
+.registro-form .form-actions input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registro-form .form-actions input[type="submit"]:hover,
+.registro-form .form-actions input[type="reset"]:hover {
+    background-color: #0056b3;
 }
 
 .login {
